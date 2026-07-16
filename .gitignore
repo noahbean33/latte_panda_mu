@@ -1,0 +1,27 @@
+# KiCad autosave and cache
+_autosave-*
+fp-info-cache
+*-bak
+*.bak
+
+# KiCad per-user editor state
+*.kicad_prl
+
+# KiCad automatic project backups
+LattePandaMu_carrier_custom-backups/
+
+# VS Code Local History extension
+.history/
+
+# Desktop portal / file-transfer temp artifacts
+.xdp-*
+
+# Redundant zipped snapshots (the folders themselves are tracked)
+Assembly.zip
+LattePandaMu_carrier_custom_*.zip
+LattePandaMu_v1_gerbers.zip
+LattePandaMu_v1.1_gerbers.zip
+
+# OS junk
+.DS_Store
+Thumbs.db

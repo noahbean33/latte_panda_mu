@@ -1,72 +1,83 @@
-# RTM Carrier Board for LattePanda Mu
+# LattePanda Mu Carrier Board (KiCad)
 
-## Overview
-The RTM Carrier Board for the [**LattePanda Mu X86 Compute Module**](https://www.lattepanda.com/lattepanda-mu) is compatible with the AMC RTM (Rear Transition Module) standard design, providing rich I/O expansion, advanced power management, and high-speed network connectivity.
-It supports **Intel® N100/N305 processors** with 8GB or 16GB DDR memory, offering an ideal platform for embedded control, edge computing, and hardware acceleration applications.
+A custom carrier-board reference design for the **LattePanda Mu** compute module, used as a worked example in the Tech Explorations KiCad course:
+<https://connect.techexplorations.com/so/high-speed-pcb-design-with-kicad>
 
-In addition to standard interfaces such as USB, HDMI, and M.2 expansion, the board integrates a dedicated JTAG high-speed programming and debugging interface designed for MicroTCA chassis expansion, in conjunction with the **JSM (JTAG Switch Module)**.
-The carrier also comes preloaded with the Xilinx Vivado design tools, enabling users to perform FPGA programming, debugging, and hardware verification directly within the system — greatly enhancing the efficiency of remote FPGA board debugging in MicroTCA-based systems.
+This repository contains the KiCad 7+ source, project libraries, generated Gerbers, and assembly outputs for a 4-layer carrier board that breaks out the LattePanda Mu module to real-world I/O: Ethernet, HDMI, USB 2.0/3.0, PCIe x4, an M.2 E-key slot, GPIO, fan control, and a full power supply.
 
-![RTM Carrier Board for LattePanda Mu](./RTM_Carrier_for_LattePanda_Mu.png)
+The design is provided as **reference material** for students following the course.
 
 ---
 
-## 1. Core Compute Module
-- **Module:** LattePanda Mu X86 Compute Module
-- **Processor:** Intel® Processor N100 / N305
-- **Memory:** 8 GB or 16 GB DDR
-- **Interfaces:**
-  - PCIe x7
-  - USB 3.0 x2
-  - USB 2.0 x7
-  - HDMI Output
+## What is on the board
+
+| Block | Sheet | Notes |
+|---|---|---|
+| Compute module | `LattePanda_Module.kicad_sch` | LattePanda Mu module carrier interface |
+| Power supply | `psu.kicad_sch` | Multi-rail power for the module and peripherals |
+| Ethernet | `ethernet.kicad_sch` | RJ45 + magnetics |
+| HDMI | `hdmi.kicad_sch` | HDMI output |
+| USB 2.0 / 3.0 | `usb_2_3.kicad_sch` | Host/device ports |
+| PCIe x4 | `pciex4.kicad_sch` | PCIe x4 slot |
+| M.2 E-key | `m2_em_key.kicad_sch` | M.2 slot for wireless / accelerator cards |
+| GPIO | `gpio.kicad_sch` | General-purpose I/O breakout |
+| Fan control | `fan.kicad_sch` | On-board fan header + control |
+
+The full BOM is in [`LattePandaMu_carrier_custom.csv`](LattePandaMu_carrier_custom.csv).
 
 ---
 
-## 2. Power Input and Management
-- **Power Input:** 12 V DC via PD Type-C or 12 V Connector or RTM Connector
-- **Power Controllers:**
-  - CH224Q – USB PD Controller
-  - TPS2121 – Power Path Controller (source switching)
+## Repository layout
+
+```
+.
+├── LattePandaMu_carrier_custom.kicad_pro   # KiCad project — open this in KiCad
+├── LattePandaMu_carrier_custom.kicad_pcb   # 4-layer PCB layout
+├── LattePandaMu_carrier_custom.kicad_sch   # Root (hierarchical) schematic
+├── LattePandaMu_carrier_custom.kicad_dru   # Custom design rules
+├── LattePandaMu_carrier_custom.csv         # BOM export
+├── *.kicad_sch                             # Hierarchical sub-sheets (see table above)
+├── sym-lib-table                           # Project-scoped symbol library table
+├── fp-lib-table                            # Project-scoped footprint library table
+├── Libraries/                              # Custom symbols, footprints, 3D models
+├── Assembly/                               # Pick-and-place files (top / bottom)
+├── LattePandaMu_v1_gerbers/                # Gerbers for the v1 fabrication run
+└── LattePandaMu_v1.1_gerbers/              # Gerbers for the v1.1 fabrication run
+```
+
+The `sym-lib-table` and `fp-lib-table` use `${KIPRJMOD}` so the project-local `Libraries/` folder is picked up automatically — no global library installation required.
 
 ---
 
-## 3. Expansion Interfaces
-### M.2 Slots
-- **M.2 Key E (2230)**
-  - Interface: PCIe x1 & USB 2.0 x1
-  - Typical Use: Wi-Fi / Bluetooth Module
-- **M.2 Key M (2280/2260/2242/2230)**
-  - Interface: PCIe x4
-  - Typical Use: NVMe SSD
+## Getting started
+
+1. Install **KiCad 7 or newer** (<https://www.kicad.org/download/>).
+2. Clone this repository:
+   ```bash
+   git clone https://github.com/futureshocked/kicad_latte_panda_mu.git
+   ```
+3. Open `LattePandaMu_carrier_custom.kicad_pro` in KiCad.
+4. Explore the schematic hierarchy starting from `LattePandaMu_carrier_custom.kicad_sch` (double-click sheet symbols to descend into sub-sheets).
+5. Open the PCB editor to view the 4-layer layout, or browse the ready-made Gerbers in `LattePandaMu_v1.1_gerbers/`.
 
 ---
 
-## 4. Networking
-- **Ethernet Controller 1:** Intel® I210 (1 GbE)
-- **Ethernet Controller 2:** Realtek RTL8125 (2.5 GbE)
-- **Ports:**
-  - 1 × GbE (via RTM Port 19)
-  - 1 × 2.5 GbE RJ45 (Front Panel)
+## What is intentionally NOT in this repository
+
+To keep the checkout small and focused on the design, the following are excluded:
+
+- KiCad autosave files and the footprint info cache (`fp-info-cache`)
+- KiCad per-user editor state (`*.kicad_prl`)
+- The `LattePandaMu_carrier_custom-backups/` folder of KiCad-generated zip snapshots
+- The `.history/` folder from the VS Code *Local History* extension
+- Redundant top-level `.zip` snapshots of the project, Assembly, and Gerbers folders
+
+These are regenerated on demand by KiCad and the editor.
 
 ---
 
-## 5. USB Connectivity
-- **Front Panel Ports:**
-  - 4 × USB-A 3.0/2.0
-  - 4 × USB-Type-C (USB 3.0/2.0)
-  - 3 × USB-A 2.0
-- **Hub Controllers:** 2 × CH634W (USB 3.0/2.0 hubs)
+## License and use
 
----
+This project is provided as course material for Tech Explorations students. You are welcome to use it for learning, experimentation, and personal projects. Please do not redistribute it as your own work.
 
-## 6. Display Interface
-- **HDMI Output:** Direct connection from LattePanda Mu compute module
-
----
-
-## 7. Debug & Control
-- **JTAG Interface:** Connected via Digilent JTAG (USB 2.0)
-- **MMC (ARM Cortex-M3):** Used for board management and reset control
-
----
+For questions or discussion, please use the course community on Tech Explorations Connect.

@@ -1,0 +1,10 @@
+(version 1)
+
+#(rule "differential pair skew 100Ω"
+#  (condition "A.NetClass == '100Ω'")
+#  (constraint skew (max 0.05mm)))
+
+#(rule "differential pair skew 90Ω"
+#  (condition "A.NetClass == '90Ω'")
+#  (constraint skew (max 0.05mm)))
+

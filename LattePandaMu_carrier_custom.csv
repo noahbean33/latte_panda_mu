@@ -1,0 +1,86 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+A1,1,LattePanda_Mu,,,,Module_LattePanda:LattePanda_Module_H8.0mm_Horizontal,
+BT1,1,Battery_Cell,,,,A_HDJ_Library:Battery_Holder_CR1220_S8411-45R,~
+"C1,C2,C3,C4,C5,C6,C7,C8",8,220nF/50V,DNP,,Excluded from board,A_HDJ_Library:C_0402_1005Metric,~
+"C9,C10,C13,C15,C85",5,100nF/50V,DNP,,Excluded from board,A_HDJ_Library:C_0402_1005Metric,~
+C11,1,100uF/25V,DNP,,Excluded from board,A_HDJ_Library:CP_Elec_6.3x7.7,~
+C14,1,10uF/10V,DNP,,Excluded from board,A_HDJ_Library:C_0402_1005Metric,~
+C16,1,560uF/25V,DNP,,Excluded from board,A_HDJ_Library:CP_Elec_6.3x7.7,~
+"C17,C18,C19,C20,C21,C22,C23,C24,C25,C26,C27,C28,C29,C33,C34,C35,C36,C37,C38,C39,C40,C41,C42,C43,C45,C48,C52,C54,C58,C60,C84",31,100nF/50V,,,,A_HDJ_Library:C_0402_1005Metric,~
+"C30,C31,C32,C64,C65,C67,C68,C74,C75,C76,C77,C80,C81,C82,C83",15,22uF/10V,,,,A_HDJ_Library:C_0603_1608Metric,~
+"C44,C51,C53,C57,C59",5,10uF/50V,,,,A_HDJ_Library:C_0402_1005Metric,~
+"C46,C47",2,12pF/50V,,,,A_HDJ_Library:C_0402_1005Metric,~
+"C49,C50,C55,C56",4,220nF/50V,,,,A_HDJ_Library:C_0402_1005Metric,~
+"C61,C66,C69",3,1uF/16V,,,,A_HDJ_Library:C_0402_1005Metric,~
+"C62,C63",2,1uF/16V,DNP,,Excluded from board,A_HDJ_Library:C_0402_1005Metric,~
+"C70,C71",2,100nF/50V,,,,A_HDJ_Library:C_0603_1608Metric,~
+C72,1,12pF/50V,DNP,,Excluded from board,A_HDJ_Library:C_0402_1005Metric,~
+C73,1,12pF/50V,DNP,,,A_HDJ_Library:C_0402_1005Metric,~
+"C78,C79",2,100nF/10V,,,,A_HDJ_Library:C_0603_1608Metric,~
+"D1,D2,D3",3,ESD5V0B03,,,,A_HDJ_Library:D_0402_1005Metric,https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF
+"D4,D26",2,1N5819WS,,,,A_HDJ_Library:D_SOD-323,https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf
+"D5,D6,D7,D8,D10,D11,D21,D25",8,ESD9B5.0ST5G,,,,A_HDJ_Library:D_0402_1005Metric,https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF
+D9,1,LED_G,,,,A_HDJ_Library:LED_0603_1608Metric,~
+"D12,D13,D14",3,D_Zener,,,,A_HDJ_Library:D_0402_1005Metric,~
+"D15,D16,D17,D18,D19,D20",6,D_Schottky,,,,A_HDJ_Library:D_SMA,~
+D22,1,LED,,,,A_HDJ_Library:LED_0603_1608Metric,~
+D23,1,LED,DNP,,Excluded from board,A_HDJ_Library:LED_0603_1608Metric,~
+D24,1,3V3 Izt=5mA,,,,A_HDJ_Library:D_SOD-323,~
+D27,1,1N5819WS,DNP,,Excluded from board,A_HDJ_Library:D_SOD-323,https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf
+F1,1,6V/50mA,,,,A_HDJ_Library:C_0603_1608Metric,~
+"F2,F3,F4,F5",4,6V/1A,,,,A_HDJ_Library:Fuse_0805_2012Metric,~
+"FID1,FID2",2,Fiducial,,Excluded from BOM,,A_HDJ_Library:Fiducial_0.5mm_Mask1mm,~
+"H1,H2,H3,H4,H7,H8",6,MountingHole_Pad,,Excluded from BOM,,A_HDJ_Library:MountingHole_3.2mm_M3_Pad_Via,~
+"H5,H6",2,MountingHole_Pad,,Excluded from BOM,,A_HDJ_Library:MountingHole_3mm_M2_Pad_TopOnly,~
+"J1,J8,J10,J11,J14",5,Conn_01x03_Pin,,,,A_HDJ_Library:PinHeader_1x03_P2.54mm_Vertical,~
+J2,1,Bus_PCI_Express_x4,DNP,,Excluded from board,A_HDJ_Library:PCIe_x4_Gen3Slot_Connectors,http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=63
+J3,1,HDMI_A,,,,A_HDJ_Library:HDMI_A_Molex_208658-1001_Horizontal,https://en.wikipedia.org/wiki/HDMI
+J4,1,USB3_A_Stacked,,,,A_HDJ_Library:USB3_A_Molex_48406-0001_Horizontal_Stacked,~
+J5,1,USB_A_Stacked,,,,A_HDJ_Library:USB_A_CUI_UJ2-ADH-TH_Horizontal_Stacked,~
+J6,1,RJ45_RB1-125B8G1A,,,,A_HDJ_Library:RJ45_UDE_RB1-125B8G1A,https://datasheet.lcsc.com/szlcsc/1901091107_UDE-Corp-RB1-125B8G1A_C363353.pdf
+"J7,J9,J12,J13,J19,J20,J21",7,Conn_01x04_Pin,,,,A_HDJ_Library:PinHeader_1x04_P2.54mm_Vertical,~
+J15,1,Bus_M.2_Socket_M,,,,A_HDJ_Library:PCIe_M.2_Connectors_P=0.5mm_H=4.2mm_KeyM,https://web.archive.org/web/20200613074028/http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=155
+J16,1,Bus_M.2_Socket_E,,,,A_HDJ_Library:PCIe_M.2_Connectors_P=0.5mm_H=4.2mm_KeyE,https://web.archive.org/web/20200613074028/http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=150
+J17,1,Barrel_Jack_Switch,,,,A_HDJ_Library:DC_Jack_DC007B_30V_10A,~
+J18,1,USB_C_Receptacle_USB2.0_16P,,,,A_HDJ_Library:USB_C_Receptacle_G-Switch_GT-USB-7010ASV,https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+JP1,1,Jumper_3_Bridged12,,Excluded from BOM,,A_HDJ_Library:PinHeader_1x03_P2.54mm_Vertical,~
+JP2,1,NTC_Test,DNP,Excluded from BOM,Excluded from board,Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,~
+"L1,L2",2,2.2uH/4.3A,,,,A_HDJ_Library:L_Sunlord_SWPA4020S,~
+M1,1,Fan_4pin,,,,A_HDJ_Library:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical,http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
+M2,1,Fan_4pin,DNP,,Excluded from board,A_HDJ_Library:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical,http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
+"Q1,Q8",2,2N7002,,,,A_HDJ_Library:SOT-23,https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF
+"Q2,Q3,Q4",3,2SK3018,,,,A_HDJ_Library:SOT-23,https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF
+"Q5,Q6",2,2N7002,DNP,,Excluded from board,A_HDJ_Library:SOT-23,https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF
+Q7,1,AON7262E,DNP,,Excluded from board,A_HDJ_Library:MOSFET_PDFN8_3.3x3.3,https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AON7262E_C176755.pdf
+"R1,R11,R37,R47",4,1K/1%,,,,A_HDJ_Library:R_0402_1005Metric,~
+"R2,R20,R21,R34,R35,R36,R49,R58,R78,R79",10,10K/1%,,,,A_HDJ_Library:R_0402_1005Metric,~
+"R3,R5,R15,R18,R19,R52,R53",7,2.2K/1%,,,,A_HDJ_Library:R_0402_1005Metric,~
+"R4,R23",2,1M/1%,,,,A_HDJ_Library:R_0402_1005Metric,~
+"R6,R59,R68",3,21.5K/1%,,,,A_HDJ_Library:R_0402_1005Metric,~
+"R7,R8,R9,R10,R13,R14,R16,R17,R24,R25",10,470R/1%,,,,A_HDJ_Library:R_0402_1005Metric,~
+R22,1,2.49K/1%,,,,A_HDJ_Library:R_0603_1608Metric,~
+"R27,R29,R32,R33",4,0R/1%,,,,A_HDJ_Library:R_0402_1005Metric,~
+"R28,R73,R75",3,0R/1%,DNP,,Excluded from board,A_HDJ_Library:R_0402_1005Metric,~
+"R38,R40,R50,R56,R63",5,10K/1%,DNP,,Excluded from board,A_HDJ_Library:R_0402_1005Metric,~
+R39,1,2.2K/1%,DNP,,Excluded from board,A_HDJ_Library:R_0402_1005Metric,~
+"R41,R42,R54,R66,R67,R70",6,21.5K/1%,DNP,,Excluded from board,A_HDJ_Library:R_0402_1005Metric,~
+R43,1,56K/1%,,,,A_HDJ_Library:R_0402_1005Metric,~
+"R44,R45",2,100K/1%,DNP,,Excluded from board,A_HDJ_Library:R_0402_1005Metric,~
+"R46,R51,R76,R77",4,100K/1%,,,,A_HDJ_Library:R_0402_1005Metric,~
+"R48,R55,R69",3,100R/1%,,,,A_HDJ_Library:R_0402_1005Metric,~
+R57,1,75K/1%,,,,A_HDJ_Library:R_0402_1005Metric,~
+"R60,R72",2,4.7K/1%,,,,A_HDJ_Library:R_0402_1005Metric,~
+"R64,R65,R74",3,4.7K/1%,DNP,,Excluded from board,A_HDJ_Library:R_0402_1005Metric,~
+R71,1,100R/1%,DNP,,Excluded from board,A_HDJ_Library:R_0402_1005Metric,~
+"SW1,SW2",2,SW_Push,,,,A_HDJ_Library:SW_Push_6x6x6,~
+TH1,1,NTC-10K,DNP,,Excluded from board,A_HDJ_Library:R_0603_1608Metric,~
+"TP1,TP8,TP9",3,TestPoint,DNP,,Excluded from board,A_HDJ_Library:TestPoint_Pad_D1.5mm,~
+"TP2,TP3,TP4,TP5,TP6,TP7,TP10,TP11,TP12,TP13",10,TestPoint,,,,A_HDJ_Library:TestPoint_Pad_D1.5mm,~
+"U1,U2,U3,U4,U5",5,D3V3XA4B10LP,,,,A_HDJ_Library:Diodes_UDFN-10_1.0x2.5mm_P0.5mm,https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf
+U6,1,RTL8111H-CG-RH,,,,A_HDJ_Library:QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm,
+"U7,U8",2,D3V3XA4B10LP,DNP,,,A_HDJ_Library:Diodes_UDFN-10_1.0x2.5mm_P0.5mm,https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf
+"U9,U10,U11,U12,U17",5,ULC0524P,,,,A_HDJ_Library:Diodes_UDFN-10_1.0x2.5mm_P0.5mm,https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf
+U13,1,TL431DBZ,DNP,,Excluded from board,A_HDJ_Library:SOT-23,http://www.ti.com/lit/ds/symlink/tl431.pdf
+U14,1,USB PD等快充协议受电芯片-CH224K-ESSOP10,,,,A_HDJ_Library:ESSOP-10-1EP_3.9x5mm_P1.0mm_EP3.2x2.3,
+"U15,U16",2,LM2734X,,,,A_HDJ_Library:TSOT-23-6,http://www.ti.com/lit/ds/symlink/lm2734.pdf
+Y1,1,25MHz,,,,A_HDJ_Library:Crystal_SMD_3225-4Pin_3.2x2.5mm,~
