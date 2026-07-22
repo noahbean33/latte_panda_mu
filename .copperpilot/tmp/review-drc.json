@@ -1,0 +1,511 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-07-21T22:34:47",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "key": "pth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "key": "npth_inside_courtyard"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.3",
+    "schematic_parity": [],
+    "source": "LattePandaMu_carrier_custom.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint H5",
+                    "pos": {
+                        "x": 113.25,
+                        "y": 53.5
+                    },
+                    "uuid": "0642a6b7-6844-4e2f-81cd-300cde17e8c0"
+                },
+                {
+                    "description": "Footprint A1",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 110.5
+                    },
+                    "uuid": "c97ceeea-09a0-4adf-b55b-e80f2357b081"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint R78",
+                    "pos": {
+                        "x": 137.564188,
+                        "y": 103.380598
+                    },
+                    "uuid": "08de86d8-413d-4809-8a68-47730c05c9a7"
+                },
+                {
+                    "description": "Footprint A1",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 110.5
+                    },
+                    "uuid": "c97ceeea-09a0-4adf-b55b-e80f2357b081"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint H6",
+                    "pos": {
+                        "x": 176.75,
+                        "y": 53.5
+                    },
+                    "uuid": "8c713fe3-77f9-4cfb-9e47-d13f67d29183"
+                },
+                {
+                    "description": "Footprint A1",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 110.5
+                    },
+                    "uuid": "c97ceeea-09a0-4adf-b55b-e80f2357b081"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint R79",
+                    "pos": {
+                        "x": 136.127687,
+                        "y": 103.380598
+                    },
+                    "uuid": "9a396e4b-ee64-46eb-a4ee-013c8a0df9d9"
+                },
+                {
+                    "description": "Footprint A1",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 110.5
+                    },
+                    "uuid": "c97ceeea-09a0-4adf-b55b-e80f2357b081"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 228.203786,
+                        "y": 86.489799
+                    },
+                    "uuid": "3dda6ee4-99bb-4a5a-9776-7bfa49a455eb"
+                },
+                {
+                    "description": "Segment of J18 on F.Silkscreen",
+                    "pos": {
+                        "x": 227.492858,
+                        "y": 87.416907
+                    },
+                    "uuid": "b9c32c08-17d1-403a-8844-b54e57f45396"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 228.203786,
+                        "y": 86.489799
+                    },
+                    "uuid": "3dda6ee4-99bb-4a5a-9776-7bfa49a455eb"
+                },
+                {
+                    "description": "Segment of J18 on F.Silkscreen",
+                    "pos": {
+                        "x": 229.197858,
+                        "y": 96.576907
+                    },
+                    "uuid": "5ccee995-a0b9-4454-8d7a-734054ccced1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 227.687826,
+                        "y": 64.899552
+                    },
+                    "uuid": "7e566856-606f-42f7-b3fc-83422460c6c2"
+                },
+                {
+                    "description": "Rectangle of J17 on F.Silkscreen",
+                    "pos": {
+                        "x": 229.159273,
+                        "y": 75.668892
+                    },
+                    "uuid": "8fe01915-2c59-42c0-8c18-6b1166da2005"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 127.417021,
+                        "y": 148.298172
+                    },
+                    "uuid": "f778821b-9f96-4a75-9b05-ef6f4f438e36"
+                },
+                {
+                    "description": "Segment of J6 on F.Silkscreen",
+                    "pos": {
+                        "x": 128.225,
+                        "y": 149.715
+                    },
+                    "uuid": "449db49c-3c27-472d-864b-99decfdbe0ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 127.417021,
+                        "y": 148.298172
+                    },
+                    "uuid": "f778821b-9f96-4a75-9b05-ef6f4f438e36"
+                },
+                {
+                    "description": "Segment of J6 on F.Silkscreen",
+                    "pos": {
+                        "x": 144.375,
+                        "y": 149.715
+                    },
+                    "uuid": "9f7b87f2-03fa-4c74-9967-7a9dcf183147"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Footprint 'ESSOP-10-1EP_3.9x5mm_P1.0mm_EP3.2x2.3' does not match copy in library 'A_HDJ_Library'",
+            "items": [
+                {
+                    "description": "Footprint U14",
+                    "pos": {
+                        "x": 212.029578,
+                        "y": 91.941308
+                    },
+                    "uuid": "253b78df-031f-45b3-ba51-e4177d0bf2c9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SW_Push_6x6x6' does not match copy in library 'A_HDJ_Library'",
+            "items": [
+                {
+                    "description": "Footprint SW2",
+                    "pos": {
+                        "x": 66.473222,
+                        "y": 134.527271
+                    },
+                    "uuid": "8395a9b6-3274-4464-9dea-6f7603b35f71"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'DC_Jack_DC007B_30V_10A' does not match copy in library 'A_HDJ_Library'",
+            "items": [
+                {
+                    "description": "Footprint J17",
+                    "pos": {
+                        "x": 229.159273,
+                        "y": 70.668892
+                    },
+                    "uuid": "b93037bc-3623-40fa-91d9-2de6ffdd885b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LattePanda_Module_H8.0mm_Horizontal' does not match copy in library 'Module_LattePanda'",
+            "items": [
+                {
+                    "description": "Footprint A1",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 110.5
+                    },
+                    "uuid": "c97ceeea-09a0-4adf-b55b-e80f2357b081"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SW_Push_6x6x6' does not match copy in library 'A_HDJ_Library'",
+            "items": [
+                {
+                    "description": "Footprint SW1",
+                    "pos": {
+                        "x": 66.473222,
+                        "y": 125.272853
+                    },
+                    "uuid": "cafc96d3-1cf1-4672-8a38-fb8ca426afdc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle on F.Silkscreen",
+                    "pos": {
+                        "x": 185.269522,
+                        "y": 50.901783
+                    },
+                    "uuid": "01540646-a2d6-4775-a6fa-7e0e24f04058"
+                },
+                {
+                    "description": "PCB text 'UART' on F.Silkscreen",
+                    "pos": {
+                        "x": 181.555047,
+                        "y": 59.829949
+                    },
+                    "uuid": "23bd1ca0-4d58-4c05-859d-faa87210a4e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of A1 on F.Silkscreen",
+                    "pos": {
+                        "x": 106.4,
+                        "y": 115.6
+                    },
+                    "uuid": "4e8c5985-6b76-440d-a6d9-28d2ec10a28d"
+                },
+                {
+                    "description": "Pad MP [GND] of A1 on F.Cu",
+                    "pos": {
+                        "x": 107.25,
+                        "y": 98.5
+                    },
+                    "uuid": "6905367c-b8e7-4671-bd79-a7759949bc4b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of A1 on F.Silkscreen",
+                    "pos": {
+                        "x": 183.6,
+                        "y": 115.6
+                    },
+                    "uuid": "c0517121-48d4-46d4-b9cb-bbbb0503fb6f"
+                },
+                {
+                    "description": "Pad MP [GND] of A1 on F.Cu",
+                    "pos": {
+                        "x": 107.25,
+                        "y": 98.5
+                    },
+                    "uuid": "6905367c-b8e7-4671-bd79-a7759949bc4b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of J17 on F.Silkscreen",
+                    "pos": {
+                        "x": 229.159273,
+                        "y": 75.668892
+                    },
+                    "uuid": "8fe01915-2c59-42c0-8c18-6b1166da2005"
+                },
+                {
+                    "description": "PTH pad 1 [+12V] of J17",
+                    "pos": {
+                        "x": 217.159273,
+                        "y": 70.668892
+                    },
+                    "uuid": "3f8dc242-3cd7-4164-bdf7-bf8266fdc306"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of J17 on F.Silkscreen",
+                    "pos": {
+                        "x": 229.159273,
+                        "y": 75.668892
+                    },
+                    "uuid": "8fe01915-2c59-42c0-8c18-6b1166da2005"
+                },
+                {
+                    "description": "PTH pad 3 [GND] of J17",
+                    "pos": {
+                        "x": 218.959273,
+                        "y": 75.418892
+                    },
+                    "uuid": "e7a617f1-d8cd-4271-a4f3-357ed1d808f3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of J17 on F.Silkscreen",
+                    "pos": {
+                        "x": 229.159273,
+                        "y": 75.668892
+                    },
+                    "uuid": "8fe01915-2c59-42c0-8c18-6b1166da2005"
+                },
+                {
+                    "description": "PTH pad 3 [GND] of J17",
+                    "pos": {
+                        "x": 218.959273,
+                        "y": 75.418892
+                    },
+                    "uuid": "e7a617f1-d8cd-4271-a4f3-357ed1d808f3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of J17 on F.Silkscreen",
+                    "pos": {
+                        "x": 229.159273,
+                        "y": 75.668892
+                    },
+                    "uuid": "8fe01915-2c59-42c0-8c18-6b1166da2005"
+                },
+                {
+                    "description": "PTH pad 3 [GND] of J17",
+                    "pos": {
+                        "x": 218.959273,
+                        "y": 75.418892
+                    },
+                    "uuid": "e7a617f1-d8cd-4271-a4f3-357ed1d808f3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of J17 on F.Silkscreen",
+                    "pos": {
+                        "x": 229.159273,
+                        "y": 75.668892
+                    },
+                    "uuid": "8fe01915-2c59-42c0-8c18-6b1166da2005"
+                },
+                {
+                    "description": "PTH pad 3 [GND] of J17",
+                    "pos": {
+                        "x": 218.959273,
+                        "y": 75.418892
+                    },
+                    "uuid": "e7a617f1-d8cd-4271-a4f3-357ed1d808f3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

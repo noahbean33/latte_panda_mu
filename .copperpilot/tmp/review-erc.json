@@ -1,0 +1,731 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-07-21T22:34:17",
+    "ignored_checks": [
+        {
+            "description": "Input pin not driven by any Output pins",
+            "key": "pin_not_driven"
+        },
+        {
+            "description": "Input Power pin not driven by any Output Power pins",
+            "key": "power_pin_not_driven"
+        },
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "Conflict problem between pins",
+            "key": "pin_to_pin"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.3",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/8a2b43cc-acba-4686-85d9-5be8ade4e79b",
+            "violations": [
+                {
+                    "description": "Symbol 'USB_C_Receptacle_USB2.0_16P' doesn't match copy in library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol J18 [USB_C_Receptacle_USB2.0_16P]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 2.667
+                            },
+                            "uuid": "8ec31cbe-db46-41e8-aec6-35f966314519"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The symbol library 'A_HDJ_Library' was not found at '/Volumes/T7/LattePanda custom carrier (course)/Documentation/LattePanda-Mu-main/Electricals/Examples/[DFR1142]Lite Carrier for LattePanda Mu/A_HDJ_Library.kicad_sym'",
+                    "items": [
+                        {
+                            "description": "Symbol U14 [CH224K]",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 2.6416
+                            },
+                            "uuid": "65ed524c-e66c-459d-a959-94f4102f74f7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'Jumper_3_Bridged12' doesn't match copy in library 'Jumper'",
+                    "items": [
+                        {
+                            "description": "Symbol JP1 [Jumper_3_Bridged12]",
+                            "pos": {
+                                "x": 2.6035,
+                                "y": 2.2098
+                            },
+                            "uuid": "12aa574b-ca28-488f-a438-e415d1483954"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The symbol library 'A_HDJ_Library' was not found at '/Volumes/T7/LattePanda custom carrier (course)/Documentation/LattePanda-Mu-main/Electricals/Examples/[DFR1142]Lite Carrier for LattePanda Mu/A_HDJ_Library.kicad_sym'",
+                    "items": [
+                        {
+                            "description": "Symbol Q7 [AON7262E]",
+                            "pos": {
+                                "x": 2.794,
+                                "y": 0.8255
+                            },
+                            "uuid": "79dbfe02-ebe2-4f24-9882-839386a7e409"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'D3V3XA4B10LP' doesn't match copy in library 'Power_Protection'",
+                    "items": [
+                        {
+                            "description": "Symbol U10 [D3V3XA4B10LP]",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 1.397
+                            },
+                            "uuid": "c1b20a63-bd8e-4512-9130-35801766b269"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'D3V3XA4B10LP' doesn't match copy in library 'Power_Protection'",
+                    "items": [
+                        {
+                            "description": "Symbol U9 [D3V3XA4B10LP]",
+                            "pos": {
+                                "x": 0.4826,
+                                "y": 0.7747
+                            },
+                            "uuid": "60530da7-9a0c-4c5e-9a6e-0341fd93d9ab"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'D3V3XA4B10LP' doesn't match copy in library 'Power_Protection'",
+                    "items": [
+                        {
+                            "description": "Symbol U12 [D3V3XA4B10LP]",
+                            "pos": {
+                                "x": 1.0414,
+                                "y": 1.397
+                            },
+                            "uuid": "44779abe-db27-4705-bdcd-590b2fd5e6ee"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'D3V3XA4B10LP' doesn't match copy in library 'Power_Protection'",
+                    "items": [
+                        {
+                            "description": "Symbol U11 [D3V3XA4B10LP]",
+                            "pos": {
+                                "x": 1.0541,
+                                "y": 0.7747
+                            },
+                            "uuid": "1f515ce2-b6d1-4bf5-bc69-d5c59aee29e1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'D3V3XA4B10LP' doesn't match copy in library 'Power_Protection'",
+                    "items": [
+                        {
+                            "description": "Symbol U17 [D3V3XA4B10LP]",
+                            "pos": {
+                                "x": 2.3114,
+                                "y": 0.7493
+                            },
+                            "uuid": "15675b91-85a4-4080-81c4-c94be5f0c716"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'SolderJumper_2_Open' doesn't match copy in library 'Jumper'",
+                    "items": [
+                        {
+                            "description": "Symbol JP2 [SolderJumper_2_Open]",
+                            "pos": {
+                                "x": 0.7239,
+                                "y": 0.889
+                            },
+                            "uuid": "01731a18-6845-4441-a999-016eab2f4b38"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'Thermistor_NTC' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol TH1 [Thermistor_NTC]",
+                            "pos": {
+                                "x": 0.8255,
+                                "y": 0.9525
+                            },
+                            "uuid": "da0b7440-3ed2-4a66-8db8-3092ab250b20"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'Battery_Cell' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol BT1 [Battery_Cell]",
+                            "pos": {
+                                "x": 3.5433,
+                                "y": 0.635
+                            },
+                            "uuid": "0a409ca6-e882-4196-92bd-2d5565e815f0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'D3V3XA4B10LP' doesn't match copy in library 'Power_Protection'",
+                    "items": [
+                        {
+                            "description": "Symbol U5 [D3V3XA4B10LP]",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 1.4097
+                            },
+                            "uuid": "ebfa58f3-5fb2-42ce-8206-ed7f8b4602e8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'USB3_A_Stacked' doesn't match copy in library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol J4 [USB3_A_Stacked]",
+                            "pos": {
+                                "x": 1.27,
+                                "y": 0.4191
+                            },
+                            "uuid": "3c165c6e-0cbe-43d4-8efd-f1c53e4a08c4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'USB3_A_Stacked' doesn't match copy in library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol J4 [USB3_A_Stacked]",
+                            "pos": {
+                                "x": 1.27,
+                                "y": 0.9271
+                            },
+                            "uuid": "eacb805a-0f98-4f45-be15-38ce5ec63cf4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'D3V3XA4B10LP' doesn't match copy in library 'Power_Protection'",
+                    "items": [
+                        {
+                            "description": "Symbol U3 [D3V3XA4B10LP]",
+                            "pos": {
+                                "x": 1.3335,
+                                "y": 1.4097
+                            },
+                            "uuid": "7c8b3ef3-2f5f-4953-ba49-fd80ebdd9d5a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'D3V3XA4B10LP' doesn't match copy in library 'Power_Protection'",
+                    "items": [
+                        {
+                            "description": "Symbol U4 [D3V3XA4B10LP]",
+                            "pos": {
+                                "x": 2.286,
+                                "y": 0.8382
+                            },
+                            "uuid": "8d8707b8-5dd6-4eac-80ab-03802d17d6e4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'USB_A_Stacked' doesn't match copy in library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol J5 [USB_A_Stacked]",
+                            "pos": {
+                                "x": 2.5781,
+                                "y": 0.4826
+                            },
+                            "uuid": "8b3184d7-f936-48b1-8d34-69a3bfb1b1df"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The symbol library 'A_HDJ_Library' was not found at '/Volumes/T7/LattePanda custom carrier (course)/Documentation/LattePanda-Mu-main/Electricals/Examples/[DFR1142]Lite Carrier for LattePanda Mu/A_HDJ_Library.kicad_sym'",
+                    "items": [
+                        {
+                            "description": "Symbol U6 [RTL8111H-CG-RH]",
+                            "pos": {
+                                "x": 1.0414,
+                                "y": 0.6858
+                            },
+                            "uuid": "dec61dc5-b1b6-43cc-906e-af7fbee6e5c8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'Crystal_GND24' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol Y1 [Crystal_GND24]",
+                            "pos": {
+                                "x": 1.524,
+                                "y": 1.27
+                            },
+                            "uuid": "bd860ea2-0893-457b-8021-2725540b83c5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'D3V3XA4B10LP' doesn't match copy in library 'Power_Protection'",
+                    "items": [
+                        {
+                            "description": "Symbol U8 [D3V3XA4B10LP]",
+                            "pos": {
+                                "x": 2.4765,
+                                "y": 0.3302
+                            },
+                            "uuid": "77548848-a39a-4a80-ac94-476b43e49192"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'D3V3XA4B10LP' doesn't match copy in library 'Power_Protection'",
+                    "items": [
+                        {
+                            "description": "Symbol U7 [D3V3XA4B10LP]",
+                            "pos": {
+                                "x": 2.4765,
+                                "y": 0.6985
+                            },
+                            "uuid": "ef259f45-66df-4c8f-b324-09eb767cff38"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'D3V3XA4B10LP' doesn't match copy in library 'Power_Protection'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [D3V3XA4B10LP]",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 0.3429
+                            },
+                            "uuid": "41ee9e20-7394-447b-9bd3-78045004531d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'D3V3XA4B10LP' doesn't match copy in library 'Power_Protection'",
+                    "items": [
+                        {
+                            "description": "Symbol U2 [D3V3XA4B10LP]",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 0.7112
+                            },
+                            "uuid": "61577408-bac6-45c4-a1c0-4aa7322e5e16"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                }
+            ]
+        },
+        {
+            "path": "/LattePanda Module/",
+            "uuid_path": "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/4ee1a750-9135-4964-a1b8-1eecfd9d94af",
+            "violations": []
+        },
+        {
+            "path": "/Power Supply/",
+            "uuid_path": "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/8c7b3151-12f7-425f-9afc-c0487cd805f6",
+            "violations": []
+        },
+        {
+            "path": "/Fan/",
+            "uuid_path": "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/7fb81a4d-cd31-4267-84ce-92904acc75e6",
+            "violations": []
+        },
+        {
+            "path": "/GPIO/",
+            "uuid_path": "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/d6938b05-a693-4705-ba81-2cf52943dfb4",
+            "violations": []
+        },
+        {
+            "path": "/PCIe x4/",
+            "uuid_path": "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/30c9375a-b91d-44bd-b849-7b95aa1a94bb",
+            "violations": []
+        },
+        {
+            "path": "/Gigabit Ethernet/",
+            "uuid_path": "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/a2be2627-90a7-468c-83a9-e282e5470220",
+            "violations": []
+        },
+        {
+            "path": "/USB 2.0 & 3.0/",
+            "uuid_path": "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/dcbb47ea-bd1c-4b30-a60b-2000006322ea",
+            "violations": [
+                {
+                    "description": "Both CON_USB3_D_N and USB_2_P2- are attached to the same items; CON_USB3_D_N will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'CON_USB3_D_N'",
+                            "pos": {
+                                "x": 0.98425,
+                                "y": 0.3683
+                            },
+                            "uuid": "6cde3d9d-5eb3-4e0d-b1cd-e9998a41bd47"
+                        },
+                        {
+                            "description": "Hierarchical Label 'USB_2_P2-'",
+                            "pos": {
+                                "x": 0.5715,
+                                "y": 0.3683
+                            },
+                            "uuid": "373b61a5-3fff-46ce-9e67-05eebe5c2692"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both CON_USB3_D_P and USB_2_P2+ are attached to the same items; CON_USB3_D_P will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'CON_USB3_D_P'",
+                            "pos": {
+                                "x": 0.98425,
+                                "y": 0.3937
+                            },
+                            "uuid": "473560b3-7669-46d7-95a7-652cdf5619a7"
+                        },
+                        {
+                            "description": "Hierarchical Label 'USB_2_P2+'",
+                            "pos": {
+                                "x": 0.5715,
+                                "y": 0.3937
+                            },
+                            "uuid": "b3de73f0-ea1f-41d7-b1cc-78aff8591de9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both CON_USB3_SSRX_N and USB3_SSRX_N are attached to the same items; CON_USB3_SSRX_N will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'CON_USB3_SSRX_N'",
+                            "pos": {
+                                "x": 0.98425,
+                                "y": 0.4445
+                            },
+                            "uuid": "86724b53-3a66-4bca-a35b-f74e2a47f68c"
+                        },
+                        {
+                            "description": "Hierarchical Label 'USB3_SSRX_N'",
+                            "pos": {
+                                "x": 0.5715,
+                                "y": 0.4445
+                            },
+                            "uuid": "6c23944b-174a-474a-ac9f-8cfaec47c50b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both CON_USB3_SSRX_P and USB3_SSRX_P are attached to the same items; CON_USB3_SSRX_P will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'CON_USB3_SSRX_P'",
+                            "pos": {
+                                "x": 0.98425,
+                                "y": 0.4699
+                            },
+                            "uuid": "7635f669-3e0c-4e03-98b5-a10dae28f4b1"
+                        },
+                        {
+                            "description": "Hierarchical Label 'USB3_SSRX_P'",
+                            "pos": {
+                                "x": 0.5715,
+                                "y": 0.4699
+                            },
+                            "uuid": "372413b0-199a-485e-926d-c71b320a7bbd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both CON_USB4_D_N and USB_2_P1- are attached to the same items; CON_USB4_D_N will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'CON_USB4_D_N'",
+                            "pos": {
+                                "x": 1.9685,
+                                "y": 1.27
+                            },
+                            "uuid": "5d550f66-0613-45b5-bf94-2a6acbe03632"
+                        },
+                        {
+                            "description": "Hierarchical Label 'USB_2_P1-'",
+                            "pos": {
+                                "x": 0.5715,
+                                "y": 0.8763
+                            },
+                            "uuid": "c02647ba-da7d-44f6-81bc-ad3e2798f61e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both CON_USB4_D_P and USB_2_P1+ are attached to the same items; CON_USB4_D_P will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'CON_USB4_D_P'",
+                            "pos": {
+                                "x": 1.9685,
+                                "y": 1.2065
+                            },
+                            "uuid": "9f6ed730-7145-47a0-a708-fa0dfc352f82"
+                        },
+                        {
+                            "description": "Hierarchical Label 'USB_2_P1+'",
+                            "pos": {
+                                "x": 0.5715,
+                                "y": 0.9017
+                            },
+                            "uuid": "68ff1fe3-363c-4c37-9b36-71852c8977de"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both CON_USB4_SSRX_N and USB4_SSRX_N are attached to the same items; CON_USB4_SSRX_N will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'CON_USB4_SSRX_N'",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 1.3843
+                            },
+                            "uuid": "b61ccc01-297a-4ee7-b038-740ffc6715af"
+                        },
+                        {
+                            "description": "Hierarchical Label 'USB4_SSRX_N'",
+                            "pos": {
+                                "x": 0.5715,
+                                "y": 0.9525
+                            },
+                            "uuid": "d5bb877f-a4d3-45c4-951e-3802897d26e2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both CON_USB4_SSRX_P and USB4_SSRX_P are attached to the same items; CON_USB4_SSRX_P will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'CON_USB4_SSRX_P'",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 1.4351
+                            },
+                            "uuid": "9d8dab65-5e28-4845-95ab-aa8a598e5f8a"
+                        },
+                        {
+                            "description": "Hierarchical Label 'USB4_SSRX_P'",
+                            "pos": {
+                                "x": 0.5715,
+                                "y": 0.9779
+                            },
+                            "uuid": "3831539c-8cea-4457-9447-7a9b145f477d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both CON_USB1_D_P and USB_2_P5+ are attached to the same items; CON_USB1_D_P will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'CON_USB1_D_P'",
+                            "pos": {
+                                "x": 2.29235,
+                                "y": 0.4572
+                            },
+                            "uuid": "523a8cd6-c660-49fc-acff-5a9dfd557749"
+                        },
+                        {
+                            "description": "Hierarchical Label 'USB_2_P5+'",
+                            "pos": {
+                                "x": 2.0574,
+                                "y": 0.4572
+                            },
+                            "uuid": "13c1b34b-7fd3-4729-b9c9-0d63796bc2de"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both CON_USB1_D_N and USB_2_P5- are attached to the same items; CON_USB1_D_N will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'CON_USB1_D_N'",
+                            "pos": {
+                                "x": 2.29235,
+                                "y": 0.4826
+                            },
+                            "uuid": "4bb0d5be-95b1-47b1-8c5c-20f506674396"
+                        },
+                        {
+                            "description": "Hierarchical Label 'USB_2_P5-'",
+                            "pos": {
+                                "x": 2.0574,
+                                "y": 0.4826
+                            },
+                            "uuid": "13eab6b4-5eca-4fa8-b4f4-43644a5b51b0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both CON_USB2_D_P and USB_2_P3+ are attached to the same items; CON_USB2_D_P will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'CON_USB2_D_P'",
+                            "pos": {
+                                "x": 2.413,
+                                "y": 0.8128
+                            },
+                            "uuid": "1398fbe6-118f-4e4f-82ef-7c31b97d22d0"
+                        },
+                        {
+                            "description": "Hierarchical Label 'USB_2_P3+'",
+                            "pos": {
+                                "x": 2.0574,
+                                "y": 0.508
+                            },
+                            "uuid": "e8aed887-5cbb-4191-9906-4355f4939859"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both CON_USB2_D_N and USB_2_P3- are attached to the same items; CON_USB2_D_N will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'CON_USB2_D_N'",
+                            "pos": {
+                                "x": 2.29235,
+                                "y": 0.5334
+                            },
+                            "uuid": "126cfbc3-2936-4f16-93ea-47e38b9cb9c7"
+                        },
+                        {
+                            "description": "Hierarchical Label 'USB_2_P3-'",
+                            "pos": {
+                                "x": 2.0574,
+                                "y": 0.5334
+                            },
+                            "uuid": "7e699ea1-d859-4141-90fc-f92a5df9ee90"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                }
+            ]
+        },
+        {
+            "path": "/HDMI/",
+            "uuid_path": "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/d8eed8ec-aa0b-47cf-baa2-d512787913ab",
+            "violations": []
+        },
+        {
+            "path": "/M.2 M Key/",
+            "uuid_path": "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/1b1d1f41-7f47-4332-b71c-430cfcb84018",
+            "violations": []
+        }
+    ],
+    "source": "LattePandaMu_carrier_custom.kicad_sch"
+}
