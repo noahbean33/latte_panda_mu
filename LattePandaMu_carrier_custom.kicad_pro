@@ -263,7 +263,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -825,7 +825,7 @@
         "uuid": "8a2b43cc-acba-4686-85d9-5be8ade4e79b"
       }
     ],
-    "used_designators": "",
+    "used_designators": "H9-12,BT2,#PWR123-140,A2,FID3-4,J22-24,R12,R26,R30-31,R61-62,R80-91,#FLG12-18,TP14-19,D28-40,C65,C68,C86-104,U18-20,JP3,L3-4,Q9,M3,Y2,F6",
     "variants": []
   },
   "sheets": [

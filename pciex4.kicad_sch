@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20260101)
+	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "00b7ae92-3a54-402f-abf5-4b181e17b7a3")
@@ -3628,7 +3628,7 @@
 			(uuid "ff8d4354-690f-4275-96e9-e7c73e37d383")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/30c9375a-b91d-44bd-b849-7b95aa1a94bb"
 					(reference "#PWR060")
 					(unit 1)
@@ -3977,7 +3977,7 @@
 			(uuid "9a6042c6-23c9-4d9c-b2b0-500f6e36a5f8")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/30c9375a-b91d-44bd-b849-7b95aa1a94bb"
 					(reference "J2")
 					(unit 1)
@@ -4135,7 +4135,7 @@
 			(uuid "91d367c5-0c4d-4ac8-9b4e-e253d5c6f1f3")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/30c9375a-b91d-44bd-b849-7b95aa1a94bb"
 					(reference "C1")
 					(unit 1)
@@ -4213,7 +4213,7 @@
 			(uuid "6e63fe33-787a-4f61-9680-6e7b56514303")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/30c9375a-b91d-44bd-b849-7b95aa1a94bb"
 					(reference "#PWR056")
 					(unit 1)
@@ -4294,7 +4294,7 @@
 			(uuid "425f8b66-4442-4db4-b69c-49c158ca7c62")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/30c9375a-b91d-44bd-b849-7b95aa1a94bb"
 					(reference "C11")
 					(unit 1)
@@ -4694,7 +4694,7 @@
 			(uuid "bf7b5526-736a-45af-a42b-2698c836688c")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/30c9375a-b91d-44bd-b849-7b95aa1a94bb"
 					(reference "#PWR0122")
 					(unit 1)
@@ -4775,7 +4775,7 @@
 			(uuid "502416cb-d767-4be0-a7e5-f7579422afb7")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/30c9375a-b91d-44bd-b849-7b95aa1a94bb"
 					(reference "C9")
 					(unit 1)
@@ -5090,7 +5090,7 @@
 			(uuid "b8a8247d-466b-414d-ab98-ba7ffa3311ee")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/30c9375a-b91d-44bd-b849-7b95aa1a94bb"
 					(reference "TP1")
 					(unit 1)
@@ -5484,7 +5484,7 @@
 			(uuid "5a1c1321-5a23-420d-87a6-df8cf12536ee")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/30c9375a-b91d-44bd-b849-7b95aa1a94bb"
 					(reference "#PWR058")
 					(unit 1)

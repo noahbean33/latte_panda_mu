@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20260101)
+	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "2ff0a16c-3813-4104-abf6-4d42922f6219")
@@ -6692,7 +6692,7 @@
 	)
 	(text "Sleeping State Signal\n\n- SLS_S0: \n  - S0 (Working): HIGH\n  - S3 (Slpeeping): LOW\n  - S4 (Hibernation): LOW\n  - S5 (Soft Off): LOW\n- SLS_S3:\n  - S0 (Working): HIGH\n  - S3 (Slpeeping): HIGH\n  - S4 (Hibernation): LOW\n  - S5 (Soft Off): LOW"
 		(exclude_from_sim no)
-		(at 184.404 56.896 0)
+		(at 157.226 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6703,7 +6703,7 @@
 		)
 		(uuid "1c7e9aa8-4f83-40b7-83bd-521dbfb5241b")
 	)
-	(text "DDI/TCP functions are defined by the BIOS source code, \nCannot be changed in BIOS settings.\n\nBefore starting design, you should choose one of\nthe available BIOS configurations on:\nhttps://github.com/LattePandaTeam/LattePanda-Mu\n\nThe default functions are defined as follows:\n\n- DDIA: eDP 1.4b (the 40Pin connector on the Mu)\n\n- DDIB: HDMI 2.0\n\n- TCP0: HDMI 2.0\n\n- TCP1: USB TypeC (need external PD controller)"
+	(text "DDI/TCP functions are defined by the BIOS source code. \nCannot be changed in BIOS settings.\n\nBefore starting design, you should choose one of\nthe available BIOS configurations on:\nhttps://github.com/LattePandaTeam/LattePanda-Mu\n\nThe default functions are defined as follows:\n\n- DDIA: eDP 1.4b (the 40Pin connector on the Mu)\n\n- DDIB: HDMI 2.0\n\n- TCP0: HDMI 2.0\n\n- TCP1: USB TypeC (need external PD controller)"
 		(exclude_from_sim no)
 		(at 79.248 228.346 0)
 		(effects
@@ -6716,7 +6716,7 @@
 		)
 		(uuid "21818b02-1daa-4eb7-9e89-230be6ac534c")
 	)
-	(text "HSIO functions are defined by the BIOS source code, \nCannot be changed in BIOS settings.\n\nBefore starting design, you should choose one of\nthe available BIOS configurations on:\nhttps://github.com/LattePandaTeam/LattePanda-Mu\nOr contact techsupport for custom your BIOS\n\nThe default functions are defined as follows:\n\n- HSIO0: USB3.2 10Gbps\n- HSIO1: USB3.2 10Gbps\n- HSIO2: PCIe 3.0 x1\n- HSIO3: PCIe 3.0 x1\n\n- HSIO8: PCIe 3.0 x4 (Lane 0)\n- HSIO9: PCIe 3.0 x4 (Lane 1)\n- HSIO10: PCIe 3.0 x4 (Lane 2)\n- HSIO11: PCIe 3.0 x4 (Lane 3)\n\n- HSIO6: PCIe 3.0 x1"
+	(text "HSIO functions are defined by the BIOS source code, \nCannot be changed in BIOS settings.\n\nBefore starting design, you should choose one of\nthe available BIOS configurations on:\nhttps://github.com/LattePandaTeam/LattePanda-Mu\n\nThe default functions are defined as follows:\n\n- HSIO0: USB3.2 10Gbps\n- HSIO1: USB3.2 10Gbps\n- HSIO2: PCIe 3.0 x1\n- HSIO3: PCIe 3.0 x1\n\n- HSIO8: PCIe 3.0 x4 (Lane 0)\n- HSIO9: PCIe 3.0 x4 (Lane 1)\n- HSIO10: PCIe 3.0 x4 (Lane 2)\n- HSIO11: PCIe 3.0 x4 (Lane 3)\n\n- HSIO6: PCIe 3.0 x1"
 		(exclude_from_sim no)
 		(at 79.248 101.346 0)
 		(effects
@@ -7682,6 +7682,17 @@
 		)
 		(uuid "f36c6981-1af9-4eff-809d-7510116fd0c8")
 	)
+	(hierarchical_label "HSIO_10_RX-"
+		(shape input)
+		(at 472.44 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "011e7a6a-002c-4760-bf98-e9b8293adc1d")
+	)
 	(hierarchical_label "DDI_B_TX0+"
 		(shape output)
 		(at 279.4 256.54 180)
@@ -7780,6 +7791,17 @@
 			(justify right)
 		)
 		(uuid "14abfcfd-7d98-4023-9466-b7e913996e73")
+	)
+	(hierarchical_label "HSIO_10_RX+"
+		(shape input)
+		(at 472.44 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1857ca2f-72f5-40a6-b780-f2e5a8fadfbc")
 	)
 	(hierarchical_label "HSIO_9_TX+"
 		(shape output)
@@ -8430,6 +8452,17 @@
 		)
 		(uuid "b3c04c4f-f14e-4e48-b451-eb451267194d")
 	)
+	(hierarchical_label "HSIO_11_RX+"
+		(shape input)
+		(at 472.44 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "becf283f-8696-40c2-99ad-bf8360b839f4")
+	)
 	(hierarchical_label "USB_2_P7-"
 		(shape bidirectional)
 		(at 279.4 215.9 180)
@@ -8550,6 +8583,17 @@
 			(justify right)
 		)
 		(uuid "df61fd73-7ef9-432d-b831-3ed8aba601f7")
+	)
+	(hierarchical_label "HSIO_11_RX-"
+		(shape input)
+		(at 472.44 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2e77de0-c9f6-4d5e-8498-9b31b5aebfe7")
 	)
 	(hierarchical_label "DDI_B_DDC_SCL"
 		(shape output)
@@ -8766,7 +8810,7 @@
 			(uuid "d30d45e0-32fa-4cb9-b1b7-7b2d8cf24a9c")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/4ee1a750-9135-4964-a1b8-1eecfd9d94af"
 					(reference "BT1")
 					(unit 1)
@@ -8922,7 +8966,7 @@
 			(uuid "a6a1e5c5-5958-460c-82bc-4d532797d509")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/4ee1a750-9135-4964-a1b8-1eecfd9d94af"
 					(reference "#PWR015")
 					(unit 1)
@@ -9001,7 +9045,7 @@
 			(uuid "98841614-2c6f-408e-bdff-55ef9c3cc9a0")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/4ee1a750-9135-4964-a1b8-1eecfd9d94af"
 					(reference "TP7")
 					(unit 1)
@@ -9160,7 +9204,7 @@
 			(uuid "3575930e-d6de-4af0-af40-f486d93e4f80")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/4ee1a750-9135-4964-a1b8-1eecfd9d94af"
 					(reference "R2")
 					(unit 1)
@@ -9238,7 +9282,7 @@
 			(uuid "6abc3578-270a-48bc-bdbb-c357dbc2f88d")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/4ee1a750-9135-4964-a1b8-1eecfd9d94af"
 					(reference "#PWR05")
 					(unit 1)
@@ -9403,7 +9447,7 @@
 			(uuid "5050ee02-fbf0-4942-835c-901fbf4278cb")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/4ee1a750-9135-4964-a1b8-1eecfd9d94af"
 					(reference "J1")
 					(unit 1)
@@ -9642,7 +9686,7 @@
 			(uuid "3fa0793d-dd64-443c-abfe-2fb9f50f6c79")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/4ee1a750-9135-4964-a1b8-1eecfd9d94af"
 					(reference "#PWR013")
 					(unit 1)
@@ -9720,7 +9764,7 @@
 			(uuid "f31f154e-0de0-4855-b09b-3365b68c0eb9")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/4ee1a750-9135-4964-a1b8-1eecfd9d94af"
 					(reference "#PWR07")
 					(unit 1)
@@ -9798,7 +9842,7 @@
 			(uuid "341bc2c3-12ee-4702-a230-7b895451a4b9")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/4ee1a750-9135-4964-a1b8-1eecfd9d94af"
 					(reference "#PWR012")
 					(unit 1)
@@ -9876,7 +9920,7 @@
 			(uuid "f03da112-a64e-4987-8f43-becb1e434018")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/4ee1a750-9135-4964-a1b8-1eecfd9d94af"
 					(reference "#PWR010")
 					(unit 1)
@@ -9954,7 +9998,7 @@
 			(uuid "ff5502a0-f27d-4bac-9818-35a125a21b0e")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/4ee1a750-9135-4964-a1b8-1eecfd9d94af"
 					(reference "#PWR011")
 					(unit 1)
@@ -10033,7 +10077,7 @@
 			(uuid "ddffea6a-2deb-4fe4-b754-132bbf32b36d")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/4ee1a750-9135-4964-a1b8-1eecfd9d94af"
 					(reference "H5")
 					(unit 1)
@@ -10111,7 +10155,7 @@
 			(uuid "5309a4c3-6632-4194-8de8-de3d2b48e381")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/4ee1a750-9135-4964-a1b8-1eecfd9d94af"
 					(reference "#PWR06")
 					(unit 1)
@@ -11050,7 +11094,7 @@
 			(uuid "ce622e9c-666d-4fff-9977-2a7c5723fd74")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/4ee1a750-9135-4964-a1b8-1eecfd9d94af"
 					(reference "A1")
 					(unit 1)
@@ -11128,7 +11172,7 @@
 			(uuid "acf5e167-6880-4ed9-a1c9-e9bea8a6ddec")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/4ee1a750-9135-4964-a1b8-1eecfd9d94af"
 					(reference "#PWR09")
 					(unit 1)
@@ -11365,7 +11409,7 @@
 			(uuid "7fde5011-171b-4971-92b5-605b180d4f34")
 		)
 		(instances
-			(project ""
+			(project "LattePandaMu_carrier_custom"
 				(path "/8a2b43cc-acba-4686-85d9-5be8ade4e79b/4ee1a750-9135-4964-a1b8-1eecfd9d94af"
 					(reference "#FLG01")
 					(unit 1)
