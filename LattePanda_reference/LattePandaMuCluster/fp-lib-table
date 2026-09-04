@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LattePanda-Mu")(type "KiCad")(uri "${KIPRJMOD}/libs/lattepanda-mu/Module_LattePanda.pretty")(options "")(descr ""))
+  (lib (name "EasyEDA2KiCAD")(type "KiCad")(uri "${KIPRJMOD}/libs/easyeda2kicad/easyeda2kicad.pretty")(options "")(descr ""))
+  (lib (name "RJE361882145")(type "KiCad")(uri "${KIPRJMOD}/libs/RJE361882415")(options "")(descr ""))
+  (lib (name "124B-150A02")(type "KiCad")(uri "${KIPRJMOD}/libs/124B_150A02")(options "")(descr ""))
+  (lib (name "Custom")(type "KiCad")(uri "${KIPRJMOD}/libs/Custom.pretty")(options "")(descr ""))
+  (lib (name "TPS65987D")(type "KiCad")(uri "${KIPRJMOD}/libs/tps65987d/footprints.pretty")(options "")(descr ""))
+)
